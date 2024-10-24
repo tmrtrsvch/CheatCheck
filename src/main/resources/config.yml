@@ -1,14 +1,17 @@
 #
-#            CheatCheck v1.0
+#            CheatCheck v1.1
 #   	      Автор: Тимур
 #   	   Телеграм: @tmrtrsvch
 #
+# /ccheck reload (cheatcheck.reload) - Перезагрузить конфигурацию
 # /check <игрок> (cheatcheck.use) - Вызвать игрока на проверку
 # /uncheck <игрок> (cheatcheck.use) - Отпустить игрока с проверки
 #
 
 messages:
   no_permission: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа&7&l: &fУ Вас нет прав для выполнения данной команды"
+  reload_usage: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа&7&l: &fИспользуйте: &x&0&0&f&f&0&0/ccheck reload"
+  config_reloaded: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа&7&l: &fКонфигурация успешно перезагружена!"
   player_not_found: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа&7&l: &fДанный игрок не найден"
   not_on_check: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа&7&l: &fДанный игрок не на проверке"
   check_usage: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа&7&l: &fИспользуйте: &x&0&0&f&f&0&0/check <игрок>"

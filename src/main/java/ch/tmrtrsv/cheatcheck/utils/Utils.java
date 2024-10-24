@@ -1,7 +1,5 @@
 package ch.tmrtrsv.cheatcheck.utils;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.bukkit.ChatColor;
@@ -19,12 +17,5 @@ public class Utils {
             text = text.replace("&#" + hexCode, builder.toString());
         }
         return ChatColor.translateAlternateColorCodes('&', text);
-    }
-
-    public static List<String> color(List<String> list) {
-        List<String> result = new ArrayList<>();
-        for (String string : list)
-            result.add(color(string));
-        return result;
     }
 }
