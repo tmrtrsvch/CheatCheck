@@ -1,5 +1,5 @@
 #
-#            CheatCheck v1.1
+#            CheatCheck v1.2
 #   	      Автор: Тимур
 #   	   Телеграм: @tmrtrsvch
 #
@@ -25,3 +25,8 @@ messages:
   center_screen_message: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа"
   center_screen_subtitle: "&fВы были вызваны на проверку на читы"
   center_screen_display_time: 100
+  player_quit: "&#FF2900&lП&#FA2300&lр&#F41D00&lо&#EF1700&lв&#E91200&lе&#E40C00&lр&#DE0600&lк&#D90000&lа&7&l: &fИгрок &x&0&0&f&f&0&0%player% &fпокинул сервер во время проверки"
+
+settings:
+  quit_commands: # Команды от консоли для игрока, если он выйдет с проверки. Игрок, который вышел - %player%
+    - "ban %player%"
